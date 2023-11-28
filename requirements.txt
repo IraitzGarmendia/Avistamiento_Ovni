@@ -4,7 +4,7 @@ pandas
 openpyxl
 
 # Visualizaciones
-matplotlib==3.7.4
+matplotlib
 seaborn
 plotly-express
 
