@@ -15,7 +15,7 @@ st.set_page_config(page_title="Cazadores de OVNIs" , layout="wide", page_icon="�
 
 #----------------------LECTURA DEL CSV------------------------------------------
 
-df = pd.read_csv(r"C:\Users\34650\Desktop\proyecto 3\Temario\Ovnis\UFO_final_csv.csv")
+df = pd.read_csv(r"C:\Users\34650\Desktop\Avistamiento_Ovni\UFO_final_csv.csv")
 
 #----------------------EMPIEZA NUESTRA APP------------------------------------------
 
@@ -260,11 +260,19 @@ with st.expander("Minería de datos"):
     # Conclusiones en la segunda columna
     col2.markdown("### **CONCLUSIONES**:")
     col2.write(
-        "CONCLUSION 1."
+        "- Se observa un aumento constante en los avistamientos de ovnis a lo largo de los años"
         "\n\n"
-        "CONCLUSION 2."
+        "- El verano, la estacion con mas avistamientos. Especialmente, los sabados. Y la mejor hora de 9pm-10pm."
         "\n\n"
-        "CONCLUSION 3."
+        "- El avistamiento mas comun, luces intermitentes. Triangulares y circulares tambien podremos ver."
+        "\n\n"
+        "- Estados Unidos lidera con un 88,52% de avistamientos, mientras España tiene un 0,09%"
+        "\n\n"
+        "- Excluyendo EEUU, Canadá y Reino Unido bonito porcentaje."
+        "\n\n"
+        "- En España, Andalucia seria la region con mas avistamientos, y en concreto Málaga. Murcia y las islas canarias áreas destacadas."
+    
+    
     )
 
 # Ruta al archivo CSV para almacenar las respuestas
