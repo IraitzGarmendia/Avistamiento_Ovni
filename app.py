@@ -15,7 +15,7 @@ st.set_page_config(page_title="Cazadores de OVNIs" , layout="wide", page_icon="ð
 
 #----------------------LECTURA DEL CSV------------------------------------------
 
-df = pd.read_csv(r"C:\Users\34650\Desktop\Avistamiento_Ovni\UFO_final_csv.csv")
+df = pd.read_csv("UFO_final_csv.csv")
 
 #----------------------EMPIEZA NUESTRA APP------------------------------------------
 
